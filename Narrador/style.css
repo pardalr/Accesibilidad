@@ -1,0 +1,97 @@
+body{
+    background-color: rgba(214, 206, 166, 0.654);
+}
+
+header{
+    font-size: xx-large;
+    background-color: rgba(165, 42, 42, 0.631);
+    font-family: cursive;
+    font-weight: bolder;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-style: double;
+    height: 90px;
+
+}
+
+#ocultar{
+
+    position: relative;
+    left: -10000px;
+
+}
+
+#elementos{
+
+    position: relative;
+    left: -10000px;
+
+
+}
+
+
+
+#menu{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#menuNaveg{
+
+    font-size: x-large;
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+
+#imgs1{
+    display: flex;
+    justify-content: center;   
+}
+
+#imgs2{
+    display: flex;
+    justify-content: center;   
+}
+
+#imgs3{
+    display: flex;
+    justify-content: center;
+}
+
+.imagenes{
+height: 500px;
+}
+
+#centrar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+#imgEscaparate{
+    width: 500px;
+}
+
+#txtEscaparate{
+    width: 500px;
+    text-align: justify;
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    background-color: rgba(228, 178, 142, 0.896);
+    border-style: double;
+
+}
+
+h1{
+    display: flex;
+    justify-content: space-around;
+}
